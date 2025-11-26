@@ -1,0 +1,39 @@
+Primeiramente Utilize Hospedagem Linux Cpanel para que o sistema funcione em bom funcionamento pois e um requisito.
+
+Php 5.6 a0 7.4
+
+Obrigado por adquirir o Rangando®
+
+* INSTALAÇÃO >
+
+    EXTRAIA TODO CONTEUDO DO ARQUIVO RANGANDO.ZIP PARA O LOCAL DE INSTALAÇÃO
+
+INSIRA SUAS INFORMAÇÕES DE BANCO DE DADOS EM “desenvolvimento\config\database.php” ENTRE AS LINHAS 3 A 6
+
+$db['default']['username'] = "usuariodobanco";
+
+$db['default']['password'] = "senhadobanco";
+
+$db['default']['database'] = "nomedobacodedados";
+
+$db['default']['hostname'] = "localhost";
+
+    Agora importe o arquivo rangandobanco.sql para dentro do banco de dados apontados na etapa anterior
+    EM SEGUIDA MUDAR O ARQUIVO 
+
+“desenvolvimento\config\config.php” NA LINHA 3
+
+$config['base_url'] = 'http://seusiteaqui.com';
+
+Pronto!
+
+ Usuario: admin
+ senha: senha
+
+Não consegue instalar? - Não se preocupe instalamos para você por mais R$ 50,00   Precisa de um Servidor? Comprar hospedagem para meu sistema Uma Hospedagem Robusta.
+
+Contato Parcerias ou Suporte 24H Seg. a Sab: baixatudoja@gmail.com 
+
+Atendimento Brasil WhatsApp: +55 (21) 98561-6517
+
+"Deus Seja Louvado" Sempre faça o bem.

@@ -1,0 +1,17 @@
+Options +FollowSymLinks
+Options -Indexes
+DirectoryIndex index.php
+RewriteEngine on
+RewriteCond $1 !^(index\.php|assets|images|css|js|install|robots\.txt|favicon\.ico)
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?/$1 [L,QSA]
+
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Defina o pacote “alt-php56” como a linguagem padrão de programação “PHP”.
+<IfModule mime_module>
+  AddHandler application/x-httpd-alt-php56 .php .php5 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit
